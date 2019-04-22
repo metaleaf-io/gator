@@ -1,0 +1,16 @@
+# Gator application settings
+gator:
+  port: 9000          # UDP port that gator listens for log messages on.
+
+# Web server
+server:
+  port: 8080          # TCP port for web services.
+
+# Database driver
+database:
+  driver:   postgres
+  host:     localhost
+  port:     5432
+  database: gator
+  username: gator
+  password: gator
